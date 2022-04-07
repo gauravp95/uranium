@@ -1,16 +1,6 @@
-
-let endpoint = 'https://www.google.com'
-
-let log = function() {
-    console.log(module)
-    console.log('I am inside log function')
+let welcome = function() {
+   console.log("Welcome to my application. I am Gaurav Patil and a part of FunctionUp Uranium cohort.")
 }
 
-let obj = {
-    "name":"sabiha"
-}
 
-module.exports.endpoint = endpoint
-module.exports.logging = log
-
-
+module.exports.welcomeMessage = welcome
